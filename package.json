@@ -1,0 +1,14 @@
+{
+  "name": "Amazon_Task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "scripts": {
+    "e2e": "webdriver-manager update --versions.chrome 2.37 && protractor conf.js"
+  },
+  "author": "zaid raddad",
+  "dependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "5.4.2"
+  }
+}
